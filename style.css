@@ -1,18 +1,26 @@
 body {
     background-color: #323232;
     font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
 }
 
 #content {
+    margin-top: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 table {
-    border-collapse: separate; /* Ändern, um Innenlinien, aber keine Außenlinien zu ermöglichen */
-    border-spacing: 0; /* Entfernen Sie den Abstand zwischen den Zellen */
+    border-collapse: separate;
+    /* Ändern, um Innenlinien, aber keine Außenlinien zu ermöglichen */
+    border-spacing: 0;
+    /* Entfernen Sie den Abstand zwischen den Zellen */
 }
 
 td {
@@ -22,24 +30,30 @@ td {
     vertical-align: middle;
     font-size: 34px;
     cursor: pointer;
-    background-color: #323232; /* Optional: Hintergrundfarbe der Zellen, falls gewünscht */
+    background-color: #323232;
+    /* Optional: Hintergrundfarbe der Zellen, falls gewünscht */
 }
 
 table {
     border-collapse: collapse;
-  }
-  table td {
-    border: 5px solid white; 
-  }
-  table tr:first-child td {
+}
+
+table td {
+    border: 5px solid white;
+}
+
+table tr:first-child td {
     border-top: 0;
-  }
-  table tr td:first-child {
+}
+
+table tr td:first-child {
     border-left: 0;
-  }
-  table tr:last-child td {
+}
+
+table tr:last-child td {
     border-bottom: 0;
-  }
-  table tr td:last-child {
+}
+
+table tr td:last-child {
     border-right: 0;
-  }
+}
