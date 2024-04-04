@@ -26,7 +26,6 @@ function init() {
 function render() {
     const contentDiv = document.getElementById('content');
 
-    // Generate table HTML
     let tableHtml = '<table>';
     for (let i = 0; i < 3; i++) {
         tableHtml += '<tr>';
@@ -44,7 +43,6 @@ function render() {
     }
     tableHtml += '</table>';
 
-    // Set table HTML to contentDiv
     contentDiv.innerHTML = tableHtml;
 }
 
@@ -91,7 +89,6 @@ function getWinningCombination() {
     return null;
 }
 
-
 function generateCircleSVG() {
     const color = '#00B0EF';
     const width = 70;
@@ -103,7 +100,6 @@ function generateCircleSVG() {
               </circle>
             </svg>`;
 }
-
 
 function generateCrossSVG() {
     const color = '#FFC000';
@@ -127,8 +123,6 @@ function generateCrossSVG() {
 
     return svgHtml;
 }
-
-
 
 function drawWinningLine(combination) {
     const lineColor = '#ffffff';

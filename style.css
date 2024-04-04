@@ -1,4 +1,3 @@
-/* Set background color of the page to #323232 */
 body {
     background-color: #323232;
     font-family: 'Open Sans', sans-serif;
@@ -18,10 +17,8 @@ h1 {
     position: relative;
 }
 
-/* Set white border-color and thicker table borders */
 table {
     border-collapse: collapse;
-    /* Fix typo: should be 'collapse', not 'coll' */
 }
 
 td {
